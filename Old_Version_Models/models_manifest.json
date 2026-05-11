@@ -1,0 +1,48 @@
+{
+  "models": [
+    "raw_SVM",
+    "raw_ExtraTrees",
+    "raw_RF",
+    "raw_GradBoost",
+    "ar_SVM",
+    "ar_ExtraTrees",
+    "ar_RF",
+    "ar_GradBoost",
+    "dwt_SVM",
+    "dwt_ExtraTrees",
+    "dwt_RF",
+    "dwt_GradBoost"
+  ],
+  "paths": {
+    "raw_SVM": "/content/drive/MyDrive/EOG_Output/saved_models/raw_SVM.joblib",
+    "raw_ExtraTrees": "/content/drive/MyDrive/EOG_Output/saved_models/raw_ExtraTrees.joblib",
+    "raw_RF": "/content/drive/MyDrive/EOG_Output/saved_models/raw_RF.joblib",
+    "raw_GradBoost": "/content/drive/MyDrive/EOG_Output/saved_models/raw_GradBoost.joblib",
+    "ar_SVM": "/content/drive/MyDrive/EOG_Output/saved_models/ar_SVM.joblib",
+    "ar_ExtraTrees": "/content/drive/MyDrive/EOG_Output/saved_models/ar_ExtraTrees.joblib",
+    "ar_RF": "/content/drive/MyDrive/EOG_Output/saved_models/ar_RF.joblib",
+    "ar_GradBoost": "/content/drive/MyDrive/EOG_Output/saved_models/ar_GradBoost.joblib",
+    "dwt_SVM": "/content/drive/MyDrive/EOG_Output/saved_models/dwt_SVM.joblib",
+    "dwt_ExtraTrees": "/content/drive/MyDrive/EOG_Output/saved_models/dwt_ExtraTrees.joblib",
+    "dwt_RF": "/content/drive/MyDrive/EOG_Output/saved_models/dwt_RF.joblib",
+    "dwt_GradBoost": "/content/drive/MyDrive/EOG_Output/saved_models/dwt_GradBoost.joblib"
+  },
+  "feature_types": [
+    "raw",
+    "ar",
+    "dwt"
+  ],
+  "model_names": [
+    "SVM",
+    "ExtraTrees",
+    "RF",
+    "GradBoost"
+  ],
+  "class_names": [
+    "Up",
+    "Down",
+    "Right",
+    "Left",
+    "Blink"
+  ]
+}
